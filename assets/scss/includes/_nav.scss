@@ -13,6 +13,10 @@
 	background-color: $black;
 }
 
+.tbw_headerNav {
+	height: 58px;
+}
+
 .tbw_head {
 	font-family: "VeneerThree","alternate-gothic-no-1-d",sans-serif;
 	text-transform: uppercase;
@@ -57,8 +61,12 @@
 
 .tbw_logo {/* margin-top: -1.4em; */}
 
-.tbw_nav, .tba_nav .divider{
+.tbw_nav, .divider{
 	padding: 3em 0;
+}
+
+.tba_nav {
+	padding: 0;
 }
 
 .tbw_nav .divider{
@@ -223,4 +231,3 @@ a#sidebarButton.tbw_menu_btn{
 .tbw_nav_sidebar li a{
 	width:100%;
 }
-
